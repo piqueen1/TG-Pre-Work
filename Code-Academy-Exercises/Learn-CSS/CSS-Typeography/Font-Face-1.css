@@ -1,0 +1,8 @@
+/* no code */
+
+/* To load fonts with the @font-face property:
+
+Instead of using the font's link in the HTML document, enter the link into the URL bar in the browser.
+The browser will load the CSS rules. You will need to focus on the rules that are directly labeled as latin . Some of the latin rules are on separate lines. You will need each of these.
+Copy each of the CSS rules labeled latin, and paste the rules from the browser to the top of style.css.
+*/
