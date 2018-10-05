@@ -1,0 +1,40 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+.wrapper {
+  position: relative;
+  margin: auto;
+  padding: 0;
+  max-width: 75vw;
+}
+
+.midground, .foreground {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  margin: 15vh 0 0 15vw;
+  padding: 0;
+  width: 35vw;
+  height: 59vh;
+}
+
+body {
+  background-color: rgba(0, 255, 0, 0.1);
+}
+
+.midground {
+  background-color: hsla(225, 100%, 25%, 0.4);
+}
+
+.foreground {
+  background-color: hsla(325, 50%, 50%, 0.6);
+}
+
+
+/* hue-saturation-lightness color scheme, abbreviated as HSL.
+
+The syntax for HSL is similar to the decimal form of RGB, though it differs in important ways. The first number represents the degree of the hue, and can be between 0 and 360. The second and third numbers are percentages representing saturation and lightness respectively. */
