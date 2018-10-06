@@ -6,4 +6,10 @@ const checkThatTwoPlusTwoEqualsFourAMillionTimes = () => {
   }
 }
 
+// Write your code below
+const is2p2 = checkThatTwoPlusTwoEqualsFourAMillionTimes;
+
+is2p2();
+console.log(is2p2.name);
+
 // Since functions are a type of object, they have properties such as .length and .name and methods such as .toString(). 
